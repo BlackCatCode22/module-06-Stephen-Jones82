@@ -20,11 +20,3 @@ class FootballFan(PartyAnimal):
         self.points = self.points + 7
         self.party()
         print(self.name, "points", self.points)
-
-
-s = PartyAnimal("Sally")
-s.party()
-
-j = FootballFan("Jim")
-j.party()
-j.touchdown()
